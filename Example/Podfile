@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WKProgressLabel_Example' do
+  pod 'WKProgressLabel', :path => '../'
+
+  target 'WKProgressLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
