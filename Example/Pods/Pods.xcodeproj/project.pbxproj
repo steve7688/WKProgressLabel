@@ -46,7 +46,7 @@
 		2EBCE411F6E6F1268685D6255D1A876E /* Pods-WKProgressLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKProgressLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3045895E900D9FED844B95AB8452935E /* WKProgressLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKProgressLabel.modulemap; sourceTree = "<group>"; };
 		4618DB3B5B0436E03965C379C18C65FD /* Pods-WKProgressLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKProgressLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		51633E30E06AC71C5787F6C3859ABDC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		51633E30E06AC71C5787F6C3859ABDC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5AF8730B02504D245A9C4506145A196C /* Pods-WKProgressLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKProgressLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		5B4EB08082BB16063017870BF9C26E93 /* Pods-WKProgressLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKProgressLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5CD9B38B23AA5593A1366E698B29B8E1 /* Pods-WKProgressLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKProgressLabel_Tests.modulemap"; sourceTree = "<group>"; };
@@ -56,12 +56,12 @@
 		71B8F16FFFAD8392F967FE1746883283 /* WKProgressLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WKProgressLabel.m; path = WKProgressLabel/Classes/WKProgressLabel.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7A9BA674436681A417FD0B61A7650408 /* Pods-WKProgressLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKProgressLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		818A2D85DA4A2980FBBC6AB055FE0921 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		818A2D85DA4A2980FBBC6AB055FE0921 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8EBC5DA7755450DA16836940C6D4C8EB /* Pods-WKProgressLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKProgressLabel_Example.modulemap"; sourceTree = "<group>"; };
-		9CA56C1397C5372D3024793237A83379 /* WKProgressLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKProgressLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9CA56C1397C5372D3024793237A83379 /* WKProgressLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WKProgressLabel.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		9CDDA387A9CFE2EFB0572EAF6DEF3409 /* WKProgressLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKProgressLabel; path = WKProgressLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2BAEAAB7E2C5EC1AE36146D0C517F7 /* WKProgressLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKProgressLabel-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5C45E13F472E63E89229FEEC08434D6 /* Pods-WKProgressLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKProgressLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		ABC6F95467C62E73193E0153C89E3357 /* Pods-WKProgressLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WKProgressLabel_Example"; path = Pods_WKProgressLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F195CEBA1239A7C9C950F9752FE77A /* Pods-WKProgressLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKProgressLabel_Example-Info.plist"; sourceTree = "<group>"; };
@@ -657,8 +657,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
