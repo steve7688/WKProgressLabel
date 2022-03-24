@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A subclass of UILabel can show downloading progress.
+  A subclass of UILabel can show downloading progress.You can customize the appearance of WKProgressLabel by setting OFFICIAL properties.
   DESC
 
   s.homepage         = 'https://github.com/steve7688@163.com/WKProgressLabel'
