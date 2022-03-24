@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   A subclass of UILabel can show downloading progress.You can customize the appearance of WKProgressLabel by setting OFFICIAL properties.
   DESC
 
-  s.homepage         = 'https://github.com/steve7688@163.com/WKProgressLabel'
+  s.homepage         = 'https://github.com/steve7688/WKProgressLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Steve' => 'steve7688@163.com' }
-  s.source           = { :git => 'https://github.com/steve7688@163.com/WKProgressLabel.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/steve7688/WKProgressLabel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
