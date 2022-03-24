@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D0DF9B6C6746BFF01769CA87 /* Pods_WKProgressLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B9980C44475B41A7A3204D /* Pods_WKProgressLabel_Tests.framework */; };
+		F343B2DA27EB2D75003F4083 /* WKProgressLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F343B2D927EB2D75003F4083 /* WKProgressLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,15 +59,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62CBB6505247E074C5E4FDDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62CBB6505247E074C5E4FDDB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8499EEE68BA89DF4EDB1807A /* Pods-WKProgressLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKProgressLabel_Example.release.xcconfig"; path = "Target Support Files/Pods-WKProgressLabel_Example/Pods-WKProgressLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DF8CFF06FC12641DB8E1F75 /* Pods-WKProgressLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKProgressLabel_Example.debug.xcconfig"; path = "Target Support Files/Pods-WKProgressLabel_Example/Pods-WKProgressLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AC824D2F16062C1F0CA78232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C2E9BA6707B5CC7AA35A3E20 /* WKProgressLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WKProgressLabel.podspec; path = ../WKProgressLabel.podspec; sourceTree = "<group>"; };
+		AC824D2F16062C1F0CA78232 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C2E9BA6707B5CC7AA35A3E20 /* WKProgressLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKProgressLabel.podspec; path = ../WKProgressLabel.podspec; sourceTree = "<group>"; };
 		C5335244DFAB7494C95F3495 /* Pods_WKProgressLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKProgressLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B9980C44475B41A7A3204D /* Pods_WKProgressLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKProgressLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F343B2D927EB2D75003F4083 /* WKProgressLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WKProgressLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F343B2DA27EB2D75003F4083 /* WKProgressLabel.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F343B2D927EB2D75003F4083 /* WKProgressLabel.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +197,6 @@
 				032181008C378D3817DF45F0 /* Pods-WKProgressLabel_Tests.debug.xcconfig */,
 				01162F16746504C145825CC3 /* Pods-WKProgressLabel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

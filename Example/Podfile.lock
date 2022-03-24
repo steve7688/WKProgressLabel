@@ -1,0 +1,16 @@
+PODS:
+  - WKProgressLabel (0.1.0)
+
+DEPENDENCIES:
+  - WKProgressLabel (from `../`)
+
+EXTERNAL SOURCES:
+  WKProgressLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKProgressLabel: 57a97542caf0ba8e40799a06f496f4ae73a5e278
+
+PODFILE CHECKSUM: 44ee0f3e32a5214689dd19888545b8cef9e24408
+
+COCOAPODS: 1.11.2

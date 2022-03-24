@@ -1,0 +1,6 @@
+framework module Pods_WKProgressLabel_Tests {
+  umbrella header "Pods-WKProgressLabel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

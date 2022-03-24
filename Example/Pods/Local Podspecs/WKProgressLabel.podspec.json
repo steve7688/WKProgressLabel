@@ -1,0 +1,22 @@
+{
+  "name": "WKProgressLabel",
+  "version": "0.1.0",
+  "summary": "A short description of WKProgressLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/steve7688@163.com/WKProgressLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "steve7688@163.com": "steve7688@163.com"
+  },
+  "source": {
+    "git": "https://github.com/steve7688@163.com/WKProgressLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "WKProgressLabel/Classes/**/*"
+}

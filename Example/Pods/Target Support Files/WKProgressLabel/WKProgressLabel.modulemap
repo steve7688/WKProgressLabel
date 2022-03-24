@@ -1,0 +1,6 @@
+framework module WKProgressLabel {
+  umbrella header "WKProgressLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
